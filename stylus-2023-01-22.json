@@ -1,0 +1,302 @@
+[
+  {
+    "settings": {
+      "openEditInWindow": true,
+      "openEditInWindow.popup": false,
+      "windowPosition": {},
+      "show-badge": false,
+      "disableAll": false,
+      "exposeIframes": false,
+      "exposeStyleName": false,
+      "newStyleAsUsercss": false,
+      "styleViaXhr": false,
+      "patchCsp": false,
+      "config.autosave": true,
+      "schemeSwitcher.enabled": "system",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
+      "popup.breadcrumbs": true,
+      "popup.breadcrumbs.usePath": false,
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findSort": "u",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": true,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": true,
+      "manage.newUI": true,
+      "manage.newUI.favicons": false,
+      "manage.newUI.faviconsGray": true,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": true,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 1,
+      "editor.keyMap": "sublime",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "end_with_newline": false,
+        "indent_conditional": true,
+        "newline_after_open_brace": true,
+        "newline_before_close_brace": true,
+        "newline_before_open_brace": false,
+        "newline_between_properties": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "selector_separator_newline": true
+      },
+      "editor.beautify.hotkey": "",
+      "editor.lintDelay": 300,
+      "editor.linter": "csslint",
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": false,
+      "editor.contextDelete": false,
+      "editor.selectByTokens": true,
+      "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
+      "editor.livePreview": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": false,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "sync.enabled": "none",
+      "iconset": 0,
+      "badgeDisabled": "#8B0000",
+      "badgeNormal": "#006666",
+      "headerWidth.edit": 279,
+      "headerWidth.install": 279,
+      "headerWidth.manage": 279,
+      "popupWidth": 246,
+      "updateInterval": 24
+    },
+    "order": {
+      "main": [],
+      "prio": []
+    }
+  },
+  {
+    "enabled": true,
+    "installDate": 1633348171488,
+    "name": "also search for",
+    "sections": [
+      {
+        "code": "/* google: hide also search for */\n.oIk2Cb {\n    display: none;\n}"
+      }
+    ],
+    "updateDate": 1674352487936,
+    "_id": "b11d94c4-837d-48dc-b8aa-e58ac5da8ec2",
+    "_rev": 1674352487936,
+    "id": 1
+  },
+  {
+    "enabled": false,
+    "installDate": 1633826994418,
+    "name": "hatena editor",
+    "sections": [
+      {
+        "code": ".admin-main {\n    background-color: black;    \n}\n.page-user-blog-edit .editor-title-input {\n    background-color: black;\n    border: 1px solid #202327;\n}\n.mce-content-body {\n    background-color: black;\n}\n#tinymce p{\n    color: #D9D9D9;\n}\n.page-user-blog-edit #body_ifr {\n    border: 1px solid #202327;\n}"
+      }
+    ],
+    "updateDate": 1633827616642,
+    "_id": "90155c38-9c81-4ad1-8137-1add4123db8c",
+    "_rev": 1673944190479,
+    "id": 3
+  },
+  {
+    "enabled": false,
+    "installDate": 1635044859867,
+    "name": "hatena editor width",
+    "sections": [
+      {
+        "code": "body#tinymce.mce-content-body.preview.mce-inner-body {\n    max-width: 600px;\n}"
+      }
+    ],
+    "updateDate": 1635045049841,
+    "_id": "27e840e5-c706-43ea-91f6-37601d24cd54",
+    "_rev": 1674352667073,
+    "id": 5
+  },
+  {
+    "enabled": true,
+    "installDate": 1635057026330,
+    "name": "nicovideo.jp",
+    "sections": [
+      {
+        "code": "/*トップページ*/\n.ContentsDigestFrame,.NicoNewsAreaContainer,.ContentsInformationAreaContainer {\n    display: none;\n}\n\n\n/*動画ページ*/\n.BottomSideContainer,\n.IchibaContainer,\n.UadVideosContainer,\n.BottomContainer-adContainer\n{display: none;}\n.BottomContainer {min-height: 0px;}\n/*ランキングページ*/\n.NC-MediaObject.NC-NicoadMediaObject.RankingMainNicoad.NC-MediaObject_withAction {\n    display: none;\n}\n.SpecifiedRanking-sub{\n display: none;\n}\n\n/*ホームページ*/\n\n.BaseLayout-block:has(\n .HotTagsContainer,\n .OnTvAnimeVideosContainer,\n .RecommendAreaContainer,\n .TagPushVideosContainer,\n .ViewHistoriesContainer,\n .NewArrivalVideosContainer,\n .NewCommentVideosContainer,\n .RecommendVideosContainer,\n .TrendyTagAreaContainer,\n .TrendyTagsWithVideosContainer,\n .GenreTopPageHeader\n ) {\n display: none;\n}\n\na[href=\"/video_top/genre/r18\"]{\n display: none;\n}\na[href=\"/ranking/genre/r18?video_ranking_menu\"]{\n display: none;\n}\n\n",
+        "domains": [
+          "nicovideo.jp"
+        ]
+      }
+    ],
+    "updateDate": 1674349367304,
+    "_id": "6b3dc4a4-6a70-4be4-b10c-f3ce6b81d51b",
+    "_rev": 1674349367304,
+    "id": 6
+  },
+  {
+    "enabled": false,
+    "installDate": 1664720324693,
+    "name": "twitter",
+    "sections": [
+      {
+        "code": "/* この行からコピーする */\n/* Twitterのトレンド欄を消す */\ndiv[aria-label=\"タイムライン: トレンド\"]{display:none}\ndiv.Trends{display:none !important}\n\n/* Twitterのおすすめユーザを消す */\naside[aria-label=\"おすすめユーザー\"]{display:none}\ndiv.wtf-module{display:none !important}\n\n/* トレンド欄の広告を消す */\nli.promoted-trend{display:none}\n\n/* フッター非表示 */\nnav[aria-label=\"フッター\"]{display:none}\ndiv.Footer{display:none !important}\n\n\n\n/* ホームタイムラインを消す */\n/* div[aria-label=\"タイムライン: ホームタイムライン\"]{display:none !important;} */\n\n/* この行までコピーする */\n\ndiv[aria-label=\"Timeline: Explore\"]{display:none}\n/* div[role=\"tablist\"]{display:none} */\nsection[aria-labelledby=\"accessible-list-1\"]{display:none !important;}\ndiv[aria-label=\"Timeline: Your Home Timeline\"]{display:none !important;}\n\n/* .css-1dbjc4n.r-kemksi.r-1kqtdi0.r-1867qdf.r-1phboty.r-rs99b7.r-1ifxtd0.r-1udh08x{display:none;} */\n\n/* 右側のおすすめを非表示にする */\n/* div[class=\"css-1dbjc4n r-kemksi r-1kqtdi0 r-1867qdf r-1phboty r-rs99b7 r-1ifxtd0 r-1udh08x\"]{display:none;} */\n\n/* いいね・RT・コメント数非表示 */\n/* .r-qvutc0 .css-1dbjc4n .r-qvutc0 {display:none;} */\n\nbody {\n filter: grayscale(100);\n}\n\n/* 右カラムからキーワード検索とフッター以外を非表示 */\na[data-testid=AppTabBar_Explore_Link] {\n    display: none !important\n}\n\ndiv[data-testid=primaryColumn] article div[role=group] div[role=button] span {\n    opacity: 0 !important;\n    transition-property: transform, opacity !important\n}\n\nbody {\n filter: grayscale(100);\n}\n\n/* .g [jscontroller] { \n    display: none;\n}\n\n.exp-outline + div {\n    height:auto !important;\n} */",
+        "urlPrefixes": [
+          "twitter.com"
+        ]
+      }
+    ],
+    "updateDate": 1674352504515,
+    "_id": "7ebbf08f-8826-41a6-9ed3-78194f36e9a4",
+    "_rev": 1674352504515,
+    "id": 7
+  },
+  {
+    "enabled": true,
+    "installDate": 1666008531566,
+    "name": "youtube.com",
+    "sections": [
+      {
+        "code": "#scroll-container.yt-chip-cloud-renderer {\n    margin-top: 100px;\n}\n\n/*Previously watchedを非表示にする*/\n#dismissible {\n    display: none;\n}\n\n\nbutton.ytp-miniplayer-button.ytp-button {\n    display: none;\n}\nbody {\n filter: grayscale(100);\n}\n\n\n/* DF Tube /////////////////////////// */\n\n/* Hide Feed */\n/* #feed,\nytd-browse[page-subtype=home] {\n    display: none !important;\n} */\n\n/* Show only Library/Lists */\n/* ytd-guide-section-renderer:nth-child(n+2) {\n    display: none !important;\n} */\n\n/* Hide Tranding Tab */\n/* #trending-guide-item {\n    display: none;\n}\n\nytd-guide-section-renderer:nth-child(1) #items>ytd-guide-entry-renderer:nth-child(2) {\n    display: none;\n}\n\n#appbar-nav li:nth-child(2) {\n    display: none !important;\n}\n\nytd-mini-guide-renderer #items ytd-mini-guide-entry-renderer:nth-child(2) {\n    display: none !important;\n}\n */\n\n\n\n\n/* Hide YouTube Comments */\n",
+        "urlPrefixes": [
+          "https://www.youtube.com/"
+        ]
+      }
+    ],
+    "updateDate": 1673440992817,
+    "_id": "9991933f-7e88-41d7-946f-e420e19067f9",
+    "_rev": 1674352515256,
+    "id": 10
+  },
+  {
+    "enabled": false,
+    "installDate": 1671248387421,
+    "name": "seiga.nicovideo.jp",
+    "sections": [
+      {
+        "code": "DIV[id=\"top_ads_box\"]{display: none;}\nDIV[class=\"nicoad_block\"]{display: none;}\nDIV[class=\"nicoad_block\"]{display: none;}\nA[class=\"shunga_logo\"][href=\"/shunga/\"]{display: none;}\ndiv.spread_hide{display:none !important}\n\nDIV[class=\"popular_illust_block\"]{display: none;}\nDIV[class=\"recommend_box box\"]{display: none;}\nDIV[class=\"other_illust related_illust\"]{display: none;}\nDIV[class=\"other_illust popular_illust\"]{display: none;}\nDIV[id=\"watch_nicoad\"]{display: none;}\nDIV[class=\"related_illust related_box\"]{display: none;}"
+      }
+    ],
+    "updateDate": 1673938100557,
+    "_id": "329dc5be-b129-4dd6-9cb0-6642652433b5",
+    "_rev": 1674352553835,
+    "id": 11
+  },
+  {
+    "enabled": true,
+    "installDate": 1671248598891,
+    "name": "dic.nicovideo",
+    "sections": [
+      {
+        "code": "DIV[class=\"__uz__widget\"]{display: none;}\nbody {\n filter: grayscale(100);\n}",
+        "urlPrefixes": [
+          "https://dic.nicovideo.jp/"
+        ]
+      }
+    ],
+    "updateDate": 1673441112298,
+    "_id": "7e07c596-aaf9-48c6-97b8-aff64bac7571",
+    "_rev": 1673944228899,
+    "id": 12
+  },
+  {
+    "enabled": false,
+    "installDate": 1672306429663,
+    "name": "Spotify",
+    "sections": [
+      {
+        "code": "@media (max-height: 700px) {\n img.mMx2LUixlnN_Fu45JpFB.cover-art-image.Yn2Ei5QZn19gria6LjZj {\n/*     filter: grayscale(1); */\n       display: none;\n }\n}\nbody {\n filter: grayscale(100);\n}",
+        "urlPrefixes": [
+          "https://open.spotify.com/"
+        ]
+      }
+    ],
+    "updateDate": 1673441027835,
+    "_id": "63d15900-4094-4ded-8f97-32d3517e394e",
+    "_rev": 1674352642166,
+    "id": 24
+  },
+  {
+    "enabled": false,
+    "installDate": 1673067789412,
+    "name": "Bauhutte",
+    "sections": [
+      {
+        "code": "body {\n filter: grayscale(100%);\n}",
+        "urlPrefixes": [
+          "https://www.bauhutte.jp/"
+        ]
+      }
+    ],
+    "updateDate": 1673067818906,
+    "_id": "98ade741-3fce-482e-9ddd-53e52f7dd237",
+    "_rev": 1674352415738,
+    "id": 25
+  },
+  {
+    "enabled": false,
+    "installDate": 1673938366605,
+    "name": "Soundonsound",
+    "sections": [
+      {
+        "code": "DIV[id=\"block-sos-youtube-sos-youtube-latest-videos\"]{display: none;}",
+        "urlPrefixes": [
+          "https://www.soundonsound.com"
+        ]
+      }
+    ],
+    "updateDate": 1673938395183,
+    "_id": "c4e75ace-f3f5-49ec-89c7-d4dfdc9c9389",
+    "_rev": 1674352512176,
+    "id": 26
+  },
+  {
+    "enabled": true,
+    "installDate": 1673945588678,
+    "name": "amazon",
+    "sections": [
+      {
+        "code": ".a-section.a-spacing-none.shogun-widget.card-lite.product-shoveler.aui-desktop.fresh-shoveler {\n    display: none;\n}\n.cardRoot.bucket._p13n-desktop-sims-fbt_fbt-desktop_fbt-card__1_smM {\n    display: none;\n}\n\n\n/*読書履歴に基づくおすすめとおすすめの本を非表示にする*/\n.p13n-sc-skeleton-loading {\n    display: none;\n}\n/*読書履歴を非表示にする*/\n.rhf-border {\n    display: none;\n}"
+      }
+    ],
+    "updateDate": 1674089566232,
+    "_id": "acdf975c-3a1b-43f9-a8dd-0b5bb890b925",
+    "_rev": 1674089566232,
+    "id": 27
+  },
+  {
+    "enabled": true,
+    "installDate": 1674021780692,
+    "name": "twitter.com",
+    "sections": [
+      {
+        "code": "body {\n filter: grayscale(100);\n}\n\n/* 右カラムからキーワード検索とフッター以外を非表示 */\ndiv[data-testid=sidebarColumn]>div>div>div>div>div.css-1dbjc4n>div:not(:first-child):not(:last-child):not(.r-1tlfku8):not(.r-18bvks7):not(.r-1kqtdi0):not(.r-195d4m8):not(.r-ahm1il):not(.r-1h3ijdo):not(.r-1mwlp6a):not(.r-1ninfw3) {\n    display: none !important\n}\n\n/* 左カラムから「話題を検索」を非表示 */\na[data-testid=AppTabBar_Explore_Link] {\n    display: none !important\n}\n\n/* タイムラインのリプライ、リツイート、いいね数を非表示 */\ndiv[data-testid=primaryColumn] article div[role=group] div[role=button] span {\n    opacity: 0 !important;\n    transition-property: transform, opacity !important\n}\n\n/* タイムラインのリプライ、リツイート、いいね数をツイートにhoverで表示 */\ndiv[data-testid=primaryColumn] article:hover div[role=group] div[role=button] span {\n    opacity: 1 !important\n}\n\n/* フォロワー数を非表示 */\ndiv[data-testid=primaryColumn]>div>div>div>div>div>div.css-1dbjc4n.r-1cad53l>div.css-1dbjc4n.r-18u37iz.r-1w6e6rj>div:last-child>a>span.r-vw2c0b,\ndiv[data-testid=primaryColumn]>div>div>div>div>div>div.css-1dbjc4n.r-1ifxtd0>div.css-1dbjc4n.r-18u37iz.r-1w6e6rj>div:last-child>a>span.r-vw2c0b,\ndiv[data-testid=primaryColumn]>div>div>div>div>div>div.css-1dbjc4n.r-dr54s0>div.css-1dbjc4n.r-18u37iz.r-1w6e6rj>div:last-child>a>span.r-vw2c0b,\ndiv[data-testid=primaryColumn]>div>div>div>div>div>div.css-1dbjc4n.r-ku1wi2>div.css-1dbjc4n.r-18u37iz.r-1w6e6rj>div:last-child>a>span.r-vw2c0b,\ndiv[data-testid=primaryColumn]>div>div>div>div>div>div.css-1dbjc4n.r-le4sbl>div.css-1dbjc4n.r-18u37iz.r-1w6e6rj>div:last-child>a>span.r-vw2c0b {\n    display: none !important\n}\n\n/* フォロワー数を非表示（ポップアップ） */\ndiv.r-u8s1d div.r-1upvrn0 div.css-1dbjc4n.r-18u37iz.r-1w6e6rj>div:last-child>a>span.r-vw2c0b,\ndiv.r-u8s1d div.r-qo02w8 div.css-1dbjc4n.r-18u37iz.r-1w6e6rj>div:last-child>a>span.r-vw2c0b,\ndiv.r-u8s1d div.r-xnswec div.css-1dbjc4n.r-18u37iz.r-1w6e6rj>div:last-child>a>span.r-vw2c0b {\n    display: none !important\n}\n\n/* フォロー中数を非表示 */\ndiv[data-testid=primaryColumn]>div>div>div>div>div>div.css-1dbjc4n.r-1cad53l>div.css-1dbjc4n.r-18u37iz.r-1w6e6rj>div:first-child>a>span.r-vw2c0b,\ndiv[data-testid=primaryColumn]>div>div>div>div>div>div.css-1dbjc4n.r-1ifxtd0>div.css-1dbjc4n.r-18u37iz.r-1w6e6rj>div:first-child>a>span.r-vw2c0b,\ndiv[data-testid=primaryColumn]>div>div>div>div>div>div.css-1dbjc4n.r-dr54s0>div.css-1dbjc4n.r-18u37iz.r-1w6e6rj>div:first-child>a>span.r-vw2c0b,\ndiv[data-testid=primaryColumn]>div>div>div>div>div>div.css-1dbjc4n.r-ku1wi2>div.css-1dbjc4n.r-18u37iz.r-1w6e6rj>div:first-child>a>span.r-vw2c0b,\ndiv[data-testid=primaryColumn]>div>div>div>div>div>div.css-1dbjc4n.r-le4sbl>div.css-1dbjc4n.r-18u37iz.r-1w6e6rj>div:first-child>a>span.r-vw2c0b {\n    display: none !important\n}\n\n/* フォロー中数を非表示（ポップアップ） */\ndiv.r-u8s1d div.r-1upvrn0 div.css-1dbjc4n.r-18u37iz.r-1w6e6rj>div:first-child>a>span.r-vw2c0b,\ndiv.r-u8s1d div.r-qo02w8 div.css-1dbjc4n.r-18u37iz.r-1w6e6rj>div:first-child>a>span.r-vw2c0b,\ndiv.r-u8s1d div.r-xnswec div.css-1dbjc4n.r-18u37iz.r-1w6e6rj>div:first-child>a>span.r-vw2c0b {\n    display: none !important\n}",
+        "domains": [
+          "twitter.com"
+        ]
+      }
+    ],
+    "updateDate": 1674022717436,
+    "_id": "7e7e6695-086c-4348-b559-99668f866ab5",
+    "_rev": 1674352637332,
+    "id": 28
+  }
+]
